@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Grandstander";
+    src: url("fonts/Grandstander.ttf");
+}
+
+@font-face {
+    font-family: "Grandstander-Italic";
+    src: url("fonts/Grandstander-Italic.ttf");
+}
+
+body {
+    font-family: Grandstander, Roboto, sans-serif;
+    min-height: 100vh;
+    min-width: 900px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: Grandstander-Italic;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+}
+
+img {
+    height: 150px;
+}
+
+.play {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.play-btn {
+    padding: 10px;
+    border: 5px solid;
+    border-radius: 10px;
+    background-color: rgb(195, 189, 175);
+}
+
+.play-btn:hover {
+    background-color: #03682abb;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+}
+
+.reset-btn {
+    font-family: inherit;
+    font-weight: bold;
+    padding-top: 7px;
+    font-size: 40px;
+    color: white;
+    border: 5px solid rgb(151, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    opacity: 0.8;
+}
+
+.reset-btn:hover {
+    opacity: 1.0;
+}
+
